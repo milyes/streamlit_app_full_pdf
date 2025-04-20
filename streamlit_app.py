@@ -1,4 +1,8 @@
-import fitz  # PyMuPDF
+import fitz
+print(fitz.__doc__.splitlines()[0])
+# → 'PyMuPDF 1.24.x: Python bindings for MuPDF – a lightweight PDF viewer & toolkit'
+
+
 import pytesseract
 from PIL import Image
 import io
